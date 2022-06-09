@@ -1,0 +1,1848 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+    background: #000;
+    /*background-image: radial-gradient(circle, #41080a, #0f0202, #000);*/
+    /* background: url(../img/bg_content.jpg) fixed; */
+    background-size: cover;
+   /*  background-color: #f3ecb5 !important; */
+    position: relative !important;
+}
+
+b {
+    text-transform: uppercase;
+    font-weight: 900 !important;
+    color: #ffde00;
+    text-shadow: 2px 2px 2px #000;
+}
+
+.mobile-banner {
+    display: none;
+}
+
+.menu_cont {
+    position: relative;
+}
+
+.menu_cont .navbar-nav>li>a {
+    font-family: 'Gabriela', serif;
+    text-transform: capitalize;
+    padding: 15px 9px;
+    margin-right: 15px;
+    border-radius: 50px;
+    background: #AA076B;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #7e5923, #fed167, #7e5923);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #7e5923, #fed167, #7e5923);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin-top: 58px;
+    color: #000;
+    transition: all 0.3s ease-in-out;
+    border: 1px solid #e4b758;
+}
+
+.menu_cont .navbar-nav>li>a:hover,
+.menu_cont .navbar-nav>li>a:focus {
+    color: #fff;
+    background: #AA076B;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #61045F, #AA076B);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #61045F, #AA076B);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.menu_cont {
+    border-top: 1px solid #e4b758;
+    border-bottom: 1px solid #e4b758;
+    background-color: #a56a0a;
+}
+
+.menu_cont .navbar {
+    border: none;
+}
+
+.click-nav ul .clicker {
+    font-family: 'Gabriela', serif;
+    background-color: #f8951d !important;
+}
+
+.click-nav ul li a {
+    font-family: 'Gabriela', serif;
+}
+
+.click-nav ul li a:hover {
+    background: none !important;
+}
+
+.spaced {
+    letter-spacing: calc(.5vw + 2px);
+    margin-bottom: 0;
+    font-family: 'Abril Fatface', cursive !important;
+    font-size: 30px !important;
+    color: #d70e7d !important;
+}
+
+.logo a {
+    border: none !important;
+    background: none !important;
+    padding: 0 !important;
+    margin: 0 15px !important;
+}
+
+.menu_cont .navbar-nav>li:nth-child(4)>a {
+    margin-right: 0 !important;
+}
+
+.main-title {
+    padding: 20px;
+    background: #AA076B;
+    background: -webkit-linear-gradient(to right, #7e5923, #fed167, #7e5923);
+    background: linear-gradient(to right, #7e5923, #fed167, #7e5923);
+    border: 1px solid #e4b758;
+    text-align: center;
+    font-family: 'Gabriela', serif !important;
+    color: #000 !important;
+}
+
+.main-title h1 {
+    color: #000 !important;
+    font-family: 'Gabriela', serif;
+}
+
+}
+
+.text-wighte {
+    color: #fff !important;
+}
+
+.bner-hedings {
+    font-family: 'Gabriela', serif !important;
+    font-style: normal !important;
+}
+
+.home-banner {
+    padding: 50px 0;
+}
+
+.banner img,
+.mobile-banner img {
+    width: 100%;
+}
+
+.bnimgs p {
+    font-family: 'Gabriela', serif;
+    color: #f8951d !important;
+}
+
+.big-heding {
+    font-size: 90px;
+    color: #f8951d !important;
+    width: 100%;
+    float: left;
+    text-transform: uppercase;
+    font-weight: 800;
+    line-height: 92px;
+    font-family: 'Abril Fatface', cursive !important;
+    font-style: normal !important;
+}
+
+.head5 {
+    font-family: 'Gabriela', serif !important;
+    font-style: normal !important;
+    color: #fff !important;
+    font-size: 39px !important;
+}
+
+.ban-top p {
+    color: #f8951d;
+    font-family: 'Gabriela', serif;
+}
+
+.col-7-ban a {
+    color: #f8951d;
+    font-family: 'Gabriela', serif;
+}
+
+.col-7-ban p {
+    font-family: 'Gabriela', serif;
+}
+
+.gallery-holder {
+    background: #AA076B;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #61045F, #AA076B);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #61045F, #AA076B);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin-right: 10px;
+    padding: 10px !important;
+    border-radius: 0px;
+}
+
+.gallery-image-holder {
+    border-radius: 0px !important;
+}
+
+.gallery-holder:hover .gallery-image-holder {
+    background: #AA076B;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #7e5923, #fed167, #7e5923);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #7e5923, #fed167, #7e5923);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.gallery-image-holder img {
+    border-radius: 0px !important;
+}
+
+.gallery-text-holder .gallery-name,
+.gallery-text-holder .gallery-rate {
+    font-family: 'Gabriela', serif;
+    color: #e4b758 !important;
+}
+
+.gallery-text-holder .gallery-location {
+    font-family: 'Abril Fatface', cursive !important;
+}
+
+.available-today-bottom h3 {
+    font-family: 'Gabriela', serif !important;
+    color: #fff !important;
+    text-align: center;
+}
+
+.available-today-bottom p {
+    font-family: 'Raleway', sans-serif;
+    line-height: 28px;
+    letter-spacing: 1px;
+    color: #e4b758 !important;
+}
+
+.colortxtbox {
+    font-family: 'Gabriela', serif !important;
+    font-weight: normal !important;
+    color: #f8951d !important;
+}
+
+.book-btn .colortxtbox {
+    width: 100%;
+}
+
+.booknowbox a {
+    font-family: 'Gabriela', serif;
+    text-transform: capitalize;
+    padding: 15px 60px !important;
+    margin-right: 15px;
+    border-radius: 50px;
+    background: #AA076B;
+    background: #AA076B;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #7e5923, #fed167, #7e5923);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #7e5923, #fed167, #7e5923);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border: 1px solid #e4b758 !important;
+    color: #000 !important;
+    box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.302), 0 1px 3px 1px rgba(60, 64, 67, 0.149);
+}
+
+.spacer-single {
+    clear: both;
+    display: block;
+    height: 20px;
+    width: 100%;
+}
+
+.owl-theme .owl-controls .owl-page span {
+    background: #e4b758 !important;
+}
+
+.top_girls_list .list li .data .name {
+    font-family: 'Gabriela', serif;
+    color: #f8951d !important;
+}
+
+.top_girls_list .list li .data .time {
+    font-family: 'Abril Fatface', cursive !important;
+}
+
+.top_girls_list .list li .status {
+    font-family: 'Abril Fatface', cursive !important;
+    color: #fff !important;
+}
+
+.hm_slider {
+    padding: 80px 0;
+}
+
+.new_see {
+    color: #f8951d;
+}
+
+
+.welcome, .blueline {
+    background-image: url('https://www.sunithasen.com/img/bg_black.jpeg') !important;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border: 1px solid #d64699 !important;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+.leftbox {
+    padding: 30px 0;
+}
+
+.leftbox h1 {
+    font-family: 'Abril Fatface', cursive !important;
+    color: #fff !important;
+    letter-spacing: 2px;
+}
+
+.leftbox p {
+    font-family: 'Raleway', sans-serif;
+    line-height: 28px;
+    letter-spacing: 1px;
+    color: #e4b758 !important;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+.leftbox p b {
+    text-transform: uppercase;
+    font-weight: 900 !important;
+    color: #ffde00;
+    text-shadow: 2px 2px 2px #000;
+}
+
+.leftbox a {
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+}
+
+.leftbox h3,
+.leftbox h2 {
+    font-family: 'Gabriela', serif !important;
+    color: #fff !important;
+}
+
+.leftbox h2 {
+    margin-bottom: 10px;
+}
+
+.wappar {
+    width: 100% !important;
+}
+
+.rightbox .heading,
+.area-page-right-box .heading {
+    font-family: 'Abril Fatface', cursive !important;
+    color: #d70e7d !important;
+    letter-spacing: 2px;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.alltype ul li a {
+    font-family: 'Gabriela', serif !important;
+    font-weight: 400 !important;
+}
+
+.unique-links .uni-body,
+.unique-links .uni-hair,
+.unique-links .uni-height {
+    border: none !important;
+}
+
+.unique-links hr {
+    background-image: linear-gradient(to left, rgba(192, 44, 174, 0), rgba(138, 113, 5, 0.8), rgba(192, 44, 174, 0)) !important;
+}
+
+.blogbox h3,
+.blogbox h4 {
+    font-family: 'Gabriela', serif !important;
+    font-weight: 400 !important;
+    color: #fff !important;
+    text-align: center;
+}
+
+.chose h4 {
+    font-size: 18px !important;
+}
+
+.blogbox p {
+    
+    line-height: 28px;
+    
+}
+
+.back-pic {
+    background: #000c !important;
+}
+
+.social-but a img {
+    border: 1px solid #f8951d !important;
+    margin-bottom: 5px;
+}
+
+.bootallinks ul li a {
+    font-family: 'Gabriela', serif;
+    text-transform: capitalize;
+    transition: all 0.3s ease-in-out;
+}
+
+.bootallinks {
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px !important;
+    color: #333 !important;
+}
+
+.blure {
+    padding: 40px 10px !important;
+}
+
+.cllbox,
+.blaob,
+.chose {
+    border: 1px solid #e4b758 !important;
+}
+
+.rightbox .alltype ul li i,
+.area-page-right-box .alltype ul li i {
+    color: #f8951d;
+    font-size: 25px;
+    margin: 0px 10px 0 -20px;
+    display: inline-block;
+    animation: blink 2s ease-in infinite;
+}
+
+@keyframes blink {
+    from,
+    to {
+        opacity: 1
+    }
+    50% {
+        opacity: 0
+    }
+}
+
+.available-today-bottom img {
+    width: 100%;
+}
+
+.book-btn {
+    padding: 30px;
+    border: 1px solid #e4b758 !important;
+    text-align: center;
+    margin: 20px 0;
+    background: #AA076B;
+    background: -webkit-linear-gradient(to right, #7e5923, #fed167, #7e5923);
+    background: linear-gradient(to right, #7e5923, #fed167, #7e5923);
+}
+
+.book-btn .colortxtbox {
+    background: none;
+    color: #000 !important;
+    font-size: 25px;
+}
+
+.bnimgs {
+    position: relative !important;
+    width: 100% !important;
+}
+
+.area-cont h2 {
+    margin: 0 !important;
+}
+
+.area-cont .profile-img img,
+.area-cont .profile-img a {
+    margin: 0 !important;
+    display: block !important;
+}
+
+.area-cont .profile-img {
+    margin-bottom: 30px;
+}
+
+.area-cont .profile-img img {
+    width: 100% !important;
+}
+
+.area-cont .profile-img h2 {
+    font-weight: 700;
+    font-size: 18px;
+    padding-bottom: 0;
+}
+
+.area-title h2 {
+    text-align: center;
+    font-family: 'Abril Fatface', cursive !important;
+    font-size: 40px;
+    color: #d70e7d !important;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+}
+
+.area-girl-cont {
+    border: 1px solid #f8951d;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.area-girl-img img {
+    padding: 0 !important;
+}
+
+.area-girl-name {
+    text-align: center;
+    margin-top: 30px;
+    background: #f8951d;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.area-girl-cont a:hover {
+    text-decoration: none !important;
+}
+
+.area-girl-name h3,
+.area-girl-name h4 {
+    margin: 10px 0;
+    padding: 0;
+    font-family: 'Gabriela', serif !important;
+    color: #fff !important;
+    text-shadow: none !important;
+}
+
+.span_2_of_3 {
+    float: left !important;
+}
+
+.area-page-right-box {
+    width: 30%;
+    float: right;
+}
+
+.area-call-girls-cont .area-title h2 {
+    font-size: 24px;
+}
+
+.area-call-girls-cont .area-girl-cont {
+    margin-bottom: 20px;
+}
+
+.area-page-right-box ul li a {
+    padding: 0;
+    line-height: 40px;
+    color: #FFF;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.area-page-right-box ul li a:hover {
+    text-decoration: none;
+}
+
+.area-page-right-box ul li {
+    list-style-type: none;
+    padding: 15px 0 0;
+}
+
+.area-page-right-box {
+    padding-top: 50px;
+}
+
+.area-page-right-box ul {
+    padding: 0;
+}
+
+.click-nav ul .clicker {
+    background: #AA076B;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #61045F, #AA076B);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #61045F, #AA076B);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border: 1px solid #d64699 !important;
+}
+
+.click-nav ul li a {
+    background: #AA076B;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #61045F, #AA076B, #61045F);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #61045F, #AA076B, #61045F);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border: 1px solid #d64699 !important;
+}
+
+.click-nav ul li a:hover {
+    background: #ec008c !important;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fc6767, #ec008c) !important;
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fc6767, #ec008c) !important;
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.click-nav ul li ul {
+    margin-top: 5px;
+}
+
+.poster {
+    border-bottom: 4px solid #d80f7e;
+    border-top: 4px solid #d80f7e;
+}
+
+.poster img {
+    width: 100%;
+}
+
+.bnr-btm {
+ /*    background: url(../img/bnr-bottom-bg.png) no-repeat center; */
+    background-size: cover;
+}
+
+.aloneescort {
+ 
+    padding: 30px;
+
+}
+
+.available-today-bottom-img {
+    padding: 20px;
+    background: #AA076B;
+    background: -webkit-linear-gradient(to right, #7e5923, #fed167, #7e5923);
+    background: linear-gradient(to right, #7e5923, #fed167, #7e5923);
+    border: 1px solid #e4b758;
+}
+
+.available-today-bottom-img img {
+    width: 100%;
+}
+
+.detail-cont {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin-bottom: 30px;
+    background: #000;
+    padding: 10px;
+    box-shadow: 0 1px 2px 0 #540f01, 0 1px 3px 1px #540f01;
+    border: 1px solid #e4b758 !important;
+}
+
+.girl-img {
+    overflow: hidden;
+    border: 1px solid #574113;
+}
+
+.girl-img img {
+    position: relative;
+    display: block;
+    width: 100%;
+    transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+}
+
+.girl-text h3 {
+    font-size: 18px;
+    margin: 0 0 10px 0;
+    color: #000;
+    font-weight: 600;
+    font-family: 'Gabriela', serif;
+}
+
+.girl-text {
+    padding: 10px;
+    background: #AA076B;
+    background: -webkit-linear-gradient(to right, #7e5923, #fed167, #7e5923);
+    background: linear-gradient(to right, #7e5923, #fed167, #7e5923);
+    border: 1px solid #e4b758 !important;
+    text-align: center;
+    margin-top: 10px;
+    transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+}
+
+.detail-cont:hover .girl-text {
+    background: #AA076B;
+    background: -webkit-linear-gradient(to right, #61045F, #AA076B);
+    background: linear-gradient(to right, #61045F, #AA076B);
+    border-color: #d64699 !important;
+}
+
+.detail-cont:hover .girl-text h3,
+.detail-cont:hover .girl-text h4,
+.detail-cont:hover .girl-text h5 {
+    color: #fff;
+}
+
+.girl-text h4,
+.girl-text h5 {
+    font-size: 14px;
+    margin: 0 0 15px 0;
+    color: #000;
+    font-weight: 600;
+    font-family: 'Gabriela', serif;
+    padding: 0;
+}
+
+.detail-cont:hover .girl-img img {
+    -webkit-transform: scale(1.1, 1.1) rotate(3deg);
+    -ms-transform: scale(1.1, 1.1) rotate(3deg);
+    -o-transform: scale(1.1, 1.1) rotate(3deg);
+    -moz-transform: scale(1.1, 1.1) rotate(3deg);
+    transform: scale(1.1, 1.1) rotate(3deg);
+}
+
+.border-top-img {
+    padding-bottom: 10px;
+}
+
+.border-bottom-img {
+    padding-top: 10px;
+}
+
+.escorts-area-list span {
+    width: 100%;
+    margin: 0 4px 10px 0;
+    font-size: 11px !important;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    display: inline-block;
+    color: #000;
+    transition: all 0.3s ease-in-out;
+    font-family: 'Gabriela', serif !important;
+    border-radius: 50px;
+    background: #AA076B;
+    background: -webkit-linear-gradient(to right, #7e5923, #fed167, #7e5923);
+    background: linear-gradient(to right, #7e5923, #fed167, #7e5923);
+    border: 1px solid #e4b758;
+    font-size: 10px !important;
+    color: #000 !important;
+    box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 1px 3px 1px rgb(60 64 67 / 15%);
+}
+
+.escorts-area-list a {
+    display: block;
+    padding: 10px 1px !important;
+    border-radius: 50px;
+    color: #000 !important;
+    font-family: serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.escorts-area-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    padding: 30px;
+    border: 1px solid #e4b758;
+    text-align: center;
+    margin: 0 0 20px 0;
+    background: #AA076B;
+    background: -webkit-linear-gradient(to right, #7e5923, #fed167, #7e5923);
+    background: linear-gradient(to right, #7e5923, #fed167, #7e5923);
+}
+
+.escorts-area-list a:hover {
+    color: #fff !important;
+    background: #AA076B;
+    background: -webkit-linear-gradient(to right, #61045F, #AA076B);
+    background: linear-gradient(to right, #61045F, #AA076B);
+    border-color: #d64699;
+    text-decoration: none;
+}
+
+.bangalore-escorts-area h2,
+.bangalore-escorts-area h3 {
+    letter-spacing: calc(.5vw + 2px);
+    margin-bottom: 15px;
+    font-size: 30px !important;
+    background: #7e5923;
+    border: 1px solid #e4b758;
+    color: #fff !important;
+    font-family: 'Abril Fatface', cursive !important;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 0;
+    padding: 20px 0;
+}
+
+.unique-links .uni-hair {
+    background: #AA076B;
+    background: -webkit-linear-gradient(to right, #61045F, #AA076B) !important;
+    background: linear-gradient(to right, #61045F, #AA076B) !important;
+    border: 1px solid #d64699 !important;
+}
+
+.butt-pad {
+    width: 80%;
+    margin: 0 auto;
+    height: auto;
+}
+
+.but-pad-cont {
+    background: url(../img/hero-img.jpg) no-repeat fixed top;
+    padding: 100px 0;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+
+
+
+.blogbox h2 {
+    font-family: 'Gabriela', serif !important;
+    color: #fff !important;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.blogbox {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+footer {
+    background: url(../img/ftr-bg.png) no-repeat left top;
+    border-top: 3px solid #e4b758;
+    margin-top: 40px;
+    padding-bottom: 20px;
+    background-size: cover;
+}
+
+footer img {
+    margin: 0 auto;
+}
+
+.ftr-logo {
+    padding: 30px 0;
+}
+
+.ftr-menu ul {
+    display: table;
+    float: none;
+    margin: 0 auto;
+}
+
+.ftr-menu ul li {
+    float: left;
+    margin-right: 30px;
+    list-style-type: none;
+}
+
+.ftr-menu ul li a {
+    color: #e4b758;
+    font-family: 'Gabriela', serif;
+}
+
+.ftr-menu ul li:last-child {
+    margin: 0;
+}
+
+.ftr-menu h6 {
+    margin-top: 30px;
+    margin-bottom: 0;
+    text-align: center;
+    color: #414140;
+    font-family: 'Raleway', sans-serif;
+    text-transform: none;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.ftr-menu h6 a {
+    color: #e4b758;
+}
+
+.available-today-bottom strong {
+    color: #fff !important;
+}
+
+.sofeeya {
+    text-align: center;
+    padding: 30px 0;
+}
+
+.sofeeya h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    font-size: 40px !important;
+    color: #d80f7e;
+}
+
+.sofeeya h3 {
+    font-size: 28px;
+    font-weight: 600;
+    font-family: 'Gabriela', serif !important;
+    color: #7e5923;
+}
+
+.sofeeya h3 a {
+    color: #7e5923;
+}
+
+.sofeeya h3 a:hover {
+    color: #e4b758;
+}
+
+.sofeeya-cnct {
+    font-family: 'Gabriela', serif;
+    text-transform: capitalize;
+    padding: 15px 60px !important;
+    margin-right: 15px;
+    border-radius: 50px;
+    background: #AA076B;
+    background: -webkit-linear-gradient(to right, #7e5923, #fed167, #7e5923);
+    background: linear-gradient(to right, #7e5923, #fed167, #7e5923);
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #e4b758;
+    color: #000;
+    box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.302), 0 1px 3px 1px rgba(60, 64, 67, 0.149);
+    display: inline-block;
+    margin-top: 15px;
+    transition: all 0.3s eas-in-out;
+}
+
+.sofeeya-cnct:hover {
+    color: #fff;
+    background: #AA076B;
+    background: -webkit-linear-gradient(to right, #61045F, #AA076B);
+    background: linear-gradient(to right, #61045F, #AA076B);
+    border-color: #d64699;
+}
+
+.sofeeya-bg {
+    background: url(../img/pune-escorts.jpg) right top no-repeat;
+    background-size: cover;
+}
+
+.inner-text-bg {
+    background: #fff;
+    padding: 30px;
+    height: auto;
+    width: auto;
+    overflow: auto;
+    background: #AA076B;
+    background: -webkit-linear-gradient(to right, #61045F, #AA076B);
+    background: linear-gradient(to right, #61045F, #AA076B);
+    border: 1px solid #d64699 !important;
+}
+
+.margine-top {
+    margin-top: 30px;
+}
+
+.inner-text-bg h1,
+.inner-text-bg h2 {
+    text-align: center;
+    color: #fed167;
+    font-size: 35px;
+    text-shadow: 2px 3px 2px #000000;
+    font-family: 'Gabriela', serif !important;
+    line-height: 50px;
+}
+
+.inner-text-bg h3,
+.inner-text-bg h4 {
+    color: #fed167;
+    font-size: 25px;
+    text-shadow: 2px 3px 2px #000000;
+    font-family: 'Gabriela', serif !important;
+}
+
+.inner-text-bg p {
+    font-family: 'Raleway', sans-serif;
+    line-height: 30px;
+    letter-spacing: 1px;
+    color: #fff !important;
+    text-shadow: 2px 3px 2px #000000;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.inner-text-bg p a,
+.inner-text-bg p strong {
+    color: #fed167;
+}
+
+.inner-text-bg p a:hover {
+    text-decoration: none;
+}
+
+.cont-text {
+    text-transform: capitalize;
+    padding: 5px 0 !important;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    background: #AA076B;
+    background: -webkit-linear-gradient(to right, #7e5923, #fed167, #7e5923);
+    background: linear-gradient(to right, #7e5923, #fed167, #7e5923);
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #e4b758;
+    color: #000;
+    box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.302), 0 1px 3px 1px rgba(60, 64, 67, 0.149);
+}
+
+.strength {
+    list-style-type: none;
+}
+
+.strength li {
+    font-size: 18px;
+    margin-bottom: 30px;
+    position: relative;
+    margin-left: 35px;
+    font-family: 'Raleway', sans-serif;
+    line-height: 30px;
+    letter-spacing: 1px;
+    color: #fff !important;
+    text-shadow: 2px 3px 2px #000000;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.strength li:before {
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background: url(../img/servic-icon.png) no-repeat center center;
+    background-size: cover;
+    content: '';
+    margin-left: -35px;
+    margin-top: 5px;
+    border: 1px solid #e4b758;
+}
+
+.image-container {
+    position: relative;
+    overflow: hidden
+}
+
+.img-overlay {
+    text-align: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0
+}
+
+.img-overlay:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 130%;
+    height: 120%;
+    background: rgba(255, 255, 255, .5);
+    content: '';
+    transition: transform .7s;
+    transform: scale3d(1.9, 1.4, 1) rotate3d(0, 0, 1, 45deg) translate3d(0, -110%, 0);
+    z-index: 1
+}
+
+.img-overlay a.profile-link {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0
+}
+
+.image-container img {
+    width: 100%;
+    display: block;
+    transition: transform .35s;
+    transform: scale3d(1.05, 1.05, 1);
+    -webkit-transform-style: preserve-3d
+}
+
+.call-girls-dtl:hover img {
+    transform: scale3d(1, 1, 1)
+}
+
+.call-girls-dtl:hover .img-overlay:before {
+    transform: scale3d(1.9, 1.4, 1) rotate3d(0, 0, 1, 45deg) translate3d(0, 110%, 0)
+}
+
+.name-container h3 {
+    font-size: 18px;
+    text-align: center;
+    margin: 5px 0;
+    color: #fed167;
+    transition: all .3s ease-in-out;
+    text-transform: none !important;
+    font-weight: 700;
+}
+
+.call-girls-dtl:hover .name-container h3 {
+    color: #fff;
+    text-shadow: 1px 1px 1px #000000;
+}
+
+.call-girls-dtl {
+    background: #AA076B;
+    background: -webkit-linear-gradient(to right, #61045F, #AA076B);
+    background: linear-gradient(to right, #61045F, #AA076B);
+    border: 1px solid #d64699 !important;
+    color: #fed167;
+    transition: all 0.3s ease-in-out;
+    border-radius: 3px;
+    padding: 15px 15px 10px;
+    margin-bottom: 30px;
+}
+
+.call-girls-dtl :hover {
+    text-decoration: none;
+}
+
+.area-page-right-box .escorts-area-list a {
+    display: block;
+    min-width: calc(100% - 10px);
+}
+
+.prev a,
+.next a {
+    font-family: 'Gabriela', serif;
+    text-transform: capitalize;
+    padding: 10px 60px !important;
+    margin-right: 15px;
+    border-radius: 50px;
+    background: #AA076B;
+    background: -webkit-linear-gradient(to right, #7e5923, #fed167, #7e5923);
+    background: linear-gradient(to right, #7e5923, #fed167, #7e5923);
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #e4b758;
+    color: #000 !important;
+    box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.302), 0 1px 3px 1px rgba(60, 64, 67, 0.149);
+    display: inline-block;
+    margin-top: 15px;
+    transition: all 0.3s eas-in-out;
+}
+
+.next a {
+    float: right;
+}
+
+.model-header-photo {
+    border: 5px solid #e4b758;
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.302), 0 1px 3px 1px rgba(60, 64, 67, 0.149);
+}
+
+.model-header-photo img {
+    width: 100%;
+}
+
+.fancy {
+    font-family: 'Gabriela', serif;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    margin: 20px 0 10px 0;
+    color: #fed167;
+    text-decoration: none;
+    text-shadow: 2px 3px 2px #000000;
+}
+
+.profile-dtl table,
+.prfl-rate table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: 'Raleway', sans-serif;
+}
+
+.profile-dtl table th,
+.prfl-rate table th {
+    color: #fff;
+    font-size: 22px;
+    letter-spacing: 1px;
+    padding: 10px 0;
+    text-align: left;
+}
+
+.profile-dtl table td,
+.prfl-rate table td {
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding: 10px 0;
+    border-bottom: 1px solid #e4b758;
+}
+
+.profile-dtl h3,
+.prfl-rate h3,
+.girl-abt h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    margin: 20px 0 10px 0;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 2px 3px 2px #000000;
+}
+
+.girl-abt p {
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    line-height: 28px;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.girl-abt p a {
+    color: #e4b758;
+}
+
+.call-girls-profile-cont {
+    background: #AA076B;
+    background: -webkit-linear-gradient(to right, #61045F, #AA076B);
+    background: linear-gradient(to right, #61045F, #AA076B);
+    border: 1px solid #d64699 !important;
+    padding: 30px;
+}
+
+.call-girls-profile {
+    margin-top: 30px;
+}
+
+.girl-book {
+    text-align: center;
+}
+
+.girl-book a {
+    font-family: 'Gabriela', serif;
+    text-transform: capitalize;
+    padding: 10px 60px !important;
+    margin-right: 15px;
+    border-radius: 50px;
+    background: #AA076B;
+    background: -webkit-linear-gradient(to right, #7e5923, #fed167, #7e5923);
+    background: linear-gradient(to right, #7e5923, #fed167, #7e5923);
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #e4b758;
+    color: #000 !important;
+    box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.302), 0 1px 3px 1px rgba(60, 64, 67, 0.149);
+    display: inline-block;
+    margin-top: 15px;
+    transition: all 0.3s eas-in-out;
+}
+
+.call-girls-gallery .girls-title {
+    padding: 10px 0;
+    text-align: center;
+}
+
+.call-girls-gallery {
+    margin-top: 30px;
+}
+
+.call-and-whatsapp-btn {
+    position: fixed;
+    width: 100% !important;
+    z-index: 999;
+    bottom: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.call-and-whatsapp-btn img {
+    width: 80px;
+    margin-bottom: 20px;
+    margin: 0 auto;
+}
+
+.call-and-whatsapp-btn a {
+    display: inline-block;
+}
+
+.call-btn,
+.whats-btn {
+    width: 150px;
+    padding: 15px;
+}
+
+.whats-btn {
+    float: right;
+}
+
+.call-btn {
+    float: left;
+}
+
+.icon-caption p {
+    margin: 10px 0 0 0;
+    text-align: center;
+    color: #000;
+}
+
+.hide {
+    opacity: 0;
+    left: -100%;
+    transition: all 0.3s ease-in-out;
+}
+
+.show {
+    opacity: 1;
+    left: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.view-btn {
+    text-align: center;
+    margin: 20px 0 40px 0;
+}
+
+.view-btn a {
+    font-family: 'Gabriela', serif;
+    text-transform: capitalize;
+    padding: 15px 60px !important;
+    margin-right: 15px;
+    border-radius: 50px;
+    background: #AA076B;
+    background: -webkit-linear-gradient(to right, #7e5923, #fed167, #7e5923);
+    background: linear-gradient(to right, #7e5923, #fed167, #7e5923);
+    border: 1px solid #e4b758 !important;
+    color: #000 !important;
+    box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.302), 0 1px 3px 1px rgba(60, 64, 67, 0.149);
+    text-align: center;
+}
+
+.other-city-escorts {
+    background: url(../img/chennai-escorts-service.jpg) no-repeat;
+}
+
+.other-city-text {
+    min-height: 400px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.other-city-text h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    font-size: 30px !important;
+    color: #d1a845;
+    line-height: 38px;
+}
+
+.city-btns a {
+    font-family: 'Gabriela', serif;
+    text-transform: capitalize;
+    padding: 15px 60px !important;
+    margin-right: 15px;
+    border-radius: 50px;
+    background: #AA076B;
+    background: -webkit-linear-gradient(to right, #7e5923, #fed167, #7e5923);
+    background: linear-gradient(to right, #7e5923, #fed167, #7e5923);
+    border: 1px solid #e4b758;
+    color: #000;
+    box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.302), 0 1px 3px 1px rgba(60, 64, 67, 0.149);
+    display: inline-block;
+    margin-top: 25px;
+    transition: all 0.3s ease-in-out;
+}
+
+.city-btns a:hover {
+    color: #fff;
+    background: #AA076B;
+    background: -webkit-linear-gradient(to right, #61045F, #AA076B);
+    background: linear-gradient(to right, #61045F, #AA076B);
+    border-color: #d64699;
+}
+
+.titile-a {
+    color: #ffde00 !important;
+}
+
+.m0 {
+    margin: 0 !important;
+}
+
+@media (max-width:1199px) {
+    .logo {
+        display: none !important;
+    }
+    .menu_cont .navbar-nav>li>a {
+        margin-top: 0;
+        padding: 15px 20px;
+    }
+    .menu_cont {
+        padding: 20px 0;
+    }
+    .menu_cont .navbar-nav>li:nth-child(4)>a {
+        margin-right: 15px !important;
+    }
+    .book-btn .colortxtbox {
+        text-align: center !important;
+    }
+    .big-heding {
+        line-height: 56px !important;
+        font-size: 49px !important;
+    }
+    .bner-hedings,
+    .head5 {
+        font-size: 37px !important;
+        padding: 0 !important;
+    }
+    .click-nav ul li a {
+        font-size: 12px !important;
+    }
+    .gallery-text-holder .gallery-name,
+    .gallery-text-holder .gallery-rate {
+        font-size: 14px !important;
+    }
+    .available-today-bottom {
+        border: 1px solid #f8951d;
+        padding: 10px;
+    }
+    .available-today-bottom img {
+        width: 100% !important;
+    }
+    .available-today-bottom h3 {
+        text-align: center;
+    }
+    .booknowbox {
+        text-align: center !important;
+        margin-top: 15px;
+        width: 100% !important;
+    }
+    .girl-text h4 {
+        font-size: 13px;
+    }
+    .top_girls_list {
+        width: 100% !important;
+    }
+    .rightbox {
+        display: block !important;
+    }
+    .blogbox img {
+        width: 100%;
+    }
+    .ftr-menu ul li {
+        float: left;
+        margin-right: 25px;
+    }
+    .sofeeya h2 {
+        font-size: 38px !important;
+    }
+    .call-and-whatsapp-btn {
+        bottom: 150px;
+    }
+}
+
+@media (max-width:991px) {
+    .menu_cont .navbar-nav>li>a {
+        padding: 10px 13px !important;
+    }
+    .girl-text h4 {
+        font-size: 10px;
+    }
+    .big-heding {
+        text-align: center !important;
+    }
+    .bnimgs p {
+        text-align: center !important;
+    }
+    .click-nav ul .clicker {
+        font-size: 14px !important;
+    }
+    .click-nav ul li a {
+        line-height: 25px !important;
+    }
+    .available-today-bottom p {
+        font-family: 'Raleway', sans-serif;
+        line-height: 25px !important;
+        letter-spacing: 0px !important;
+        font-size: 14px !important;
+    }
+    .colortxtbox {
+        float: none !important;
+        text-align: center !important;
+        width: 100% !important;
+    }
+    .booknowbox {
+        text-align: center !important;
+        width: 100% !important;
+    }
+    .welcome {
+        padding: 50px 0 !important;
+    }
+    .leftbox h1 {
+        font-size: 20px !important;
+    }
+    .heading {
+        font-size: 19px !important;
+    }
+    .bootallinks ul li,
+    .bootallinks ul li a {
+        padding: 0 5px !important;
+        display: inline-block !important;
+    }
+    .area-cont .profile-img h2 {
+        font-weight: 600;
+        font-size: 14px;
+    }
+    .area-call-girls-cont {
+        width: 100%;
+        float: none;
+    }
+    .span_2_of_3 {
+        float: none !important;
+    }
+    .area-page-right-box {
+        padding-left: 10px;
+        padding-top: 50px;
+    }
+}
+
+@media (max-width:767px) {
+    .menu_cont {
+        background: #000;
+    }
+    .navbar .navbar-collapse.collapsing,
+    .navbar .navbar-collapse.in {
+        border-top: 1px solid #f8951d !important;
+    }
+    .girl-text h4 {
+        font-size: 14px;
+    }
+    .phone-number {
+        border: 2px solid #f8951d !important;
+        font-family: 'Gabriela', serif !important;
+        border-radius: 50px;
+        padding: 15px 0;
+        width: 100%;
+        text-align: center;
+        color: #fff;
+        font-size: 24px;
+        margin-top: 15px;
+        background: -webkit-linear-gradient(to right, #61045F, #AA076B);
+        background: linear-gradient(to right, #61045F, #AA076B);
+        border: 1px solid #d64699 !important;
+    }
+    .menu_cont .navbar-nav>li>a {
+        border: 1px solid #f8951d;
+    }
+    .navbar-toggle {
+        font-family: 'Gabriela', serif !important;
+    }
+    .book-btn .colortxtbox {
+        background: none;
+        color: #000 !important;
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .spaced {
+        font-size: 25px !important;
+    }
+    .available-today-bottom {
+        float: none !important;
+        width: 100% !important;
+        margin-bottom: 15px;
+    }
+    .heading {
+        margin-bottom: 0px !important;
+    }
+    .cllbox,
+    .blaob,
+    .chose {
+        float: none !important;
+        width: 100% !important;
+        margin-bottom: 15px !important;
+    }
+    .emial {
+        float: none !important;
+    }
+    .smalllogo,
+    .bootallinks {
+        float: none !important;
+        width: 100% !important;
+    }
+    .area-girl-cont {
+        margin-bottom: 20px;
+    }
+    .area-page-right-box {
+        width: 100%;
+        float: none;
+    }
+    .tab-view {
+        width: 50%;
+        float: left;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .sofeeya h2,
+    .sofeeya h3 a {
+        color: #fff !important;
+    }
+}
+
+@media (max-width:499px) {
+    .mobile-banner {
+        display: block;
+    }
+    .banner {
+        display: none;
+    }
+    .big-heding {
+        line-height: 36px !important;
+        font-size: 35px !important;
+    }
+    .bner-hedings {
+        font-size: 20px !important;
+        padding: 0 !important;
+        margin-bottom: 10px !important;
+    }
+    .head5 {
+        font-size: 30px !important;
+        padding: 0 !important;
+        line-height: 35px !important;
+        margin-top: 10px !important;
+    }
+    .spaced {
+        font-size: 20px !important;
+    }
+    .slider {
+        margin-top: 0px !important;
+    }
+    .welcome {
+        padding: 15px 0 !important;
+    }
+    .leftbox h1 {
+        font-size: 16px !important;
+    }
+    .other-city-text h2 {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 900;
+        font-size: 25px !important;
+        line-height: 30px;
+        text-align: center;
+    }
+    .other-city-escorts {
+        background-size: cover;
+        padding: 30px 0;
+    }
+    .mbl-view {
+        width: 100% !important;
+    }
+    .area-title h2 {
+        font-size: 20px;
+    }
+    .width100,
+    .mobile-view {
+        width: 100% !important;
+    }
+    .bnimgs img {
+        margin-bottom: 30px;
+    }
+    .aloneescort {
+        padding: 10px 0px;
+    }
+    .book-btn .colortxtbox {
+        font-size: 16px;
+    }
+    .booknowbox a {
+        display: block;
+        text-align: center;
+        padding: 15px 45px !important;
+    }
+    .escorts-area-list a {
+        display: block;
+        min-width: calc(100% - 10px);
+    }
+    .escorts-area-list {
+        padding: 10px 1px;
+    }
+    .ftr-menu ul li {
+        float: none;
+        margin-bottom: 10px;
+        margin-right: 0;
+        text-align: center;
+    }
+    .ftr-menu ul li a {
+        text-align: center;
+    }
+    .sofeeya h2,
+    .sofeeya h3 {
+        font-size: 21px !important;
+    }
+    .inner-text-bg h1,
+    .inner-text-bg h2 {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .inner-text-bg {
+        padding: 10px;
+    }
+    .inner-text-bg p {
+        line-height: 26px;
+    }
+    .model-header-photo {
+        border: 5px solid #e4b758;
+        border-radius: 0;
+        width: auto;
+        height: auto;
+        overflow: hidden;
+        margin: 30px auto 0 auto;
+        margin-bottom: 20px;
+        box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.302), 0 1px 3px 1px rgba(60, 64, 67, 0.149);
+    }
+    .prev a,
+    .next a {
+        display: block !important;
+        padding: 10px 0 !important;
+        text-align: center;
+    }
+    .next a {
+        float: none;
+    }
+    .profile-dtl table td,
+    .prfl-rate table td {
+        color: #fff;
+        font-size: 14px;
+    }
+    .call-and-whatsapp-btn {}
+    .call-and-whatsapp-btn img {
+        width: 50px !important;
+    }
+    .whats-btn {
+        float: none;
+        background: #000000bd;
+    }
+    .call-btn {
+        float: none;
+        background: #000000bd;
+    }
+    .view-btn a {
+        padding: 15px !important;
+    }
+    .city-btns a {
+        display: block;
+        text-align: center;
+    }
+    .bangalore-escorts-area h2 {
+        color: #000 !important;
+    }
+    .view-btn a {
+        display: block;
+        text-align: center;
+    }
+    .leftbox p {
+        text-align: center;
+        line-height: 33px;
+    }
+    .padd0 {
+        padding: 0 !important;
+    }
+    .cllbox,
+    .blaob,
+    .chose {
+        padding: 10px !important;
+    }
+    .blogbox p {
+        text-align: center;
+    }
+    .site-tagline,
+    .site-title {
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+    .text-bg p,
+    .inner-text-bg p {
+        text-align: center !important;
+        line-height: 30px;
+        font-size: 14px;
+    }
+    .site-tagline,
+    .site-title {
+        margin: 0;
+    }
+    .margine-top {
+        margin-top: 10px;
+    }
+    .available-today-bottom-img {
+        padding: 5px;
+    }
+    .leftbox h3,
+    .leftbox h2 {
+        line-height: 30px;
+        text-align: center;
+    }
+    .strength li {
+        text-align: left;
+    }
+}
+
+
+.sec-3 {
+  background: #00000005;
+  padding-top: 50px;
+}
+
+.sec-3 > div {
+  height: 400px;
+}
+
+h2.dsgn {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .escorts-area-list {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+  }
+
+@media only screen and (max-width: 768px) {
+    .escorts-area-list {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+  }
+
+
+
